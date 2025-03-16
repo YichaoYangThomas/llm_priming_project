@@ -5,3 +5,21 @@ data/raw/*.zip
 data/raw/*.tar.gz
 models/*.bin
 models/*.pt
+# 忽略数据目录中的原始数据
+data/raw/
+data/processed/
+
+# 忽略临时文件
+download_data.sh
+*.err
+*.out
+*.log
+
+# 忽略大型模型文件
+models/*.bin
+models/*.pt
+models/*.pth
+
+# 忽略Python缓存
+__pycache__/
+*.py[cod]
