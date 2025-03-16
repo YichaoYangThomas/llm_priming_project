@@ -9,7 +9,7 @@ Our research explores how different factors affect an LLM's susceptibility to pr
 1. **Model Scale**: How does increasing model size (e.g., from 1.5B to 14B parameters) affect priming susceptibility?
 2. **Syntactic Complexity**: Do more complex syntactic structures (e.g., nested clauses, long-distance dependencies) amplify priming effects?
 3. **Fine-tuning Strategies**: Can techniques like SFT and RLHF mitigate priming-induced biases?
-
+```
 llm_priming_project/
 ├── data/
 │   ├── raw/               # Original datasets
@@ -24,7 +24,7 @@ llm_priming_project/
 │   └── utils/             # Utility functions
 ├── results/               # Experimental results
 └── logs/                  # Log files
-
+```
 ## Current Progress
 
 - [x] Project setup and environment configuration
